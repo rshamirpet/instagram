@@ -1,0 +1,116 @@
+body{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	box-sizing: border-box;
+	background-image: url(../images/galaxy.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+}
+.container{
+	max-width: 900px;
+	/*padding: 15px 50px;*/
+	height: 500px;
+	overflow: hidden;
+	margin: 0 auto;
+	/*background-image: url(../images/virat-kohli__.jpg);*/
+	/*background-image: url(../images/skyshade.jpg);*/
+	background-size: cover;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+#sub-container{
+	font-family: 'Lilita One', cursive;
+	color: white;
+	height: 70%;
+	padding: 20px 20px;
+	background-image: linear-gradient(to right bottom, #6e34bf, #e62773);
+	border-radius: 10px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.steps{
+	margin-top: 15%;
+ }
+.image{
+	width: 33.332%;
+	float:left;
+}
+#sub-container h1{
+	margin-bottom: 10px;
+}
+.sidebar{
+	font-family: 'Lilita One', cursive;
+	height: 30%;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 20px 20px;
+	background-image: linear-gradient(to top right, pink, purple) ;
+	border-radius: 10px;
+	text-align: center;
+	box-sizing: border-box;
+}
+.sidebar #z{
+	color: white;
+	font-size: 1.1rem;
+	margin-top: 0px;
+}
+.sidebar input[type="text"]{
+	padding-left: 10px;
+	width: 100%;
+	height: 30px;
+	border-radius: 15px;
+	border: 1px solid grey;
+	box-sizing: border-box;
+	transition: all 0.4s;
+}
+.sidebar input[type="text"]:hover{
+	transform: scale(1.04);
+	box-shadow: 2px 3px 2px black;
+}
+.sidebar input[type="text"]:focus{
+	box-shadow: none;
+}
+button{
+	margin-top: 10px;
+	text-align: center;
+	transition: all 0.4s;
+}
+button:hover{
+	background-color: black;
+	color: white;
+	border: 1px solid blue;
+	padding: 5px 10px;
+	transform: scale(1.04);
+	cursor: pointer
+}
+@media screen and (min-width: 810px){
+	#sub-container h1{
+		font-size: 270%;
+	}
+	.steps{
+		margin-top:10%;
+	}
+}
+@media screen and (min-width: 610px) and (max-width:800px){	
+	.container{
+		width: 600px;
+	}
+}
+@media screen and (max-width: 500px){
+	.steps{
+		margin-top: 30px;
+	}
+	.container{
+		margin: auto;
+		padding: 20px;
+		width: 100%;
+	}
+}
+/*.container #z{
+	margin-top: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 30%;
+	background-color: white;
+	box-sizing: border-box;
+}*/
